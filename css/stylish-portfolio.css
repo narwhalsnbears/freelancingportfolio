@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
-
 body,
 html {
   width: 100%;
@@ -93,7 +87,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/irelandpoint2.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,7 +198,7 @@ h6 {
   background-color: #fff;
   color: #1D809F;
   height: 7rem;
-  width: 7rem;
+  width: rem;
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
@@ -353,7 +347,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: rgb(14, 68, 85) !important;
 }
 
 .text-primary {
