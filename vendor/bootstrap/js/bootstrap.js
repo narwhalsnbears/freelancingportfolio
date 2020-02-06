@@ -172,7 +172,7 @@
       for (var property in configTypes) {
         if (Object.prototype.hasOwnProperty.call(configTypes, property)) {
           var expectedTypes = configTypes[property];
-          var value = config[property];
+          var value = config[t];
           var valueType = value && Util.isElement(value) ? 'element' : toType(value);
 
           if (!new RegExp(expectedTypes).test(valueType)) {
